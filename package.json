@@ -1,0 +1,27 @@
+{
+    "name": "Note-Keeper",
+    "version": "1.0.0",
+    "description": "A web application that can be used to write, save, and delete notes.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ramandeeppatwar/Note-Taker.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ramandeeppatwar/Note-Taker/issues"
+    },
+    "homepage": "https://github.com/ramandeeppatwar/Note-Taker#readme",
+    "dependencies": {
+      "ejs": "^3.1.5",
+      "express": "^4.17.1",
+      "lodash": "^4.17.20",
+      "uuid": "^8.3.2"
+    }
+  }
